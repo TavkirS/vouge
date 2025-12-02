@@ -4,131 +4,153 @@
  */
 
 // ===== PORTFOLIO DATA =====
-// Load portfolio data from JSON file
-let portfolioData = [];
-
-async function loadPortfolioData() {
-    try {
-        const response = await fetch('../data/portfolio.json');
-        const data = await response.json();
-        portfolioData = data.portfolio;
-        return portfolioData;
-    } catch (error) {
-        console.error('Error loading portfolio data:', error);
-        // Fallback data with all categories
-        portfolioData = [
-            {
-                id: 1,
-                title: "Wedding Celebration",
-                category: "weddings",
-                image: "../assets/images/Wedding1.jpeg",
-                description: "Beautiful wedding ceremony captured with traditional elegance",
-                date: "2024",
-                location: "Mumbai, India"
-            },
-            {
-                id: 2,
-                title: "Bridal Portrait",
-                category: "portraits",
-                image: "../assets/images/wedding2.webp",
-                description: "Stunning bridal portrait in traditional attire",
-                date: "2024",
-                location: "Wedding Venue"
-            },
-            {
-                id: 3,
-                title: "Ceremony Moments",
-                category: "weddings",
-                image: "../assets/images/Wedding3.avif",
-                description: "Intimate moments from the wedding ceremony",
-                date: "2024",
-                location: "Temple"
-            },
-            {
-                id: 4,
-                title: "Reception Celebration",
-                category: "weddings",
-                image: "../assets/images/Wedding4.avif",
-                description: "Joyful reception moments",
-                date: "2024",
-                location: "Banquet Hall"
-            },
-            {
-                id: 5,
-                title: "Wedding Memories",
-                category: "portraits",
-                image: "../assets/images/Wedding5.jpg",
-                description: "Cherished wedding memories",
-                date: "2024",
-                location: "Garden Venue"
-            },
-            {
-                id: 6,
-                title: "Corporate Headshot",
-                category: "corporate",
-                image: "../assets/images/Wedding1.jpeg",
-                description: "Professional corporate headshots",
-                date: "2024",
-                location: "Corporate Office"
-            },
-            {
-                id: 7,
-                title: "Maternity Session",
-                category: "portraits",
-                image: "../assets/images/wedding2.webp",
-                description: "Beautiful maternity portraits",
-                date: "2024",
-                location: "Studio"
-            },
-            {
-                id: 8,
-                title: "Product Photography",
-                category: "commercial",
-                image: "../assets/images/Wedding3.avif",
-                description: "High-quality product photography",
-                date: "2024",
-                location: "Studio"
-            },
-            {
-                id: 9,
-                title: "Event Coverage",
-                category: "events",
-                image: "../assets/images/Wedding4.avif",
-                description: "Complete event photography coverage",
-                date: "2024",
-                location: "Event Venue"
-            },
-            {
-                id: 10,
-                title: "Fashion Editorial",
-                category: "fashion",
-                image: "../assets/images/Wedding5.jpg",
-                description: "Creative fashion editorial photography",
-                date: "2024",
-                location: "Studio"
-            },
-            {
-                id: 11,
-                title: "Graduation Ceremony",
-                category: "events",
-                image: "../assets/images/Wedding1.jpeg",
-                description: "Capturing graduation ceremony moments",
-                date: "2024",
-                location: "University"
-            },
-            {
-                id: 12,
-                title: "Food Photography",
-                category: "commercial",
-                image: "../assets/images/wedding2.webp",
-                description: "Appetizing food photography",
-                date: "2024",
-                location: "Restaurant"
-            }
-        ];
-        return portfolioData;
+// Direct portfolio data (no JSON loading to avoid path issues)
+const portfolioData = [
+    {
+        id: 1,
+        title: "Wedding Celebration",
+        category: "weddings",
+        image: "../assets/images/Wedding1.jpeg",
+        thumbnail: "../assets/images/Wedding1.jpeg",
+        description: "Beautiful wedding ceremony captured with traditional elegance and joy, showcasing the timeless beauty of Indian weddings.",
+        date: "2024-12-01",
+        location: "Mumbai, India",
+        featured: true,
+        tags: ["wedding", "traditional", "celebration", "indian"]
+    },
+    {
+        id: 2,
+        title: "Bridal Portrait",
+        category: "portraits",
+        image: "../assets/images/wedding2.webp",
+        thumbnail: "../assets/images/wedding2.webp",
+        description: "Stunning bridal portrait capturing the grace and beauty of the bride in traditional attire.",
+        date: "2024-11-15",
+        location: "Wedding Venue",
+        featured: true,
+        tags: ["bridal", "portrait", "traditional", "elegant"]
+    },
+    {
+        id: 3,
+        title: "Ceremony Moments",
+        category: "weddings",
+        image: "../assets/images/Wedding3.avif",
+        thumbnail: "../assets/images/Wedding3.avif",
+        description: "Intimate moments from the wedding ceremony, capturing emotions and traditions.",
+        date: "2024-11-08",
+        location: "Temple",
+        featured: true,
+        tags: ["ceremony", "tradition", "emotion", "culture"]
+    },
+    {
+        id: 4,
+        title: "Reception Celebration",
+        category: "weddings",
+        image: "../assets/images/Wedding4.avif",
+        thumbnail: "../assets/images/Wedding4.avif",
+        description: "Joyful reception moments capturing the celebration and happiness of the newlyweds.",
+        date: "2024-10-20",
+        location: "Banquet Hall",
+        featured: true,
+        tags: ["reception", "celebration", "joy", "family"]
+    },
+    {
+        id: 5,
+        title: "Wedding Memories",
+        category: "portraits",
+        image: "../assets/images/Wedding5.jpg",
+        thumbnail: "../assets/images/Wedding5.jpg",
+        description: "Cherished wedding memories captured with artistic photography and emotional storytelling.",
+        date: "2024-10-05",
+        location: "Garden Venue",
+        featured: false,
+        tags: ["memories", "artistic", "emotional", "storytelling"]
+    },
+    {
+        id: 6,
+        title: "Corporate Headshot",
+        category: "corporate",
+        image: "../assets/images/Wedding1.jpeg",
+        thumbnail: "../assets/images/Wedding1.jpeg",
+        description: "Professional corporate headshots for LinkedIn profiles and business branding.",
+        date: "2024-09-28",
+        location: "Corporate Office",
+        featured: false,
+        tags: ["corporate", "headshot", "professional", "business"]
+    },
+    {
+        id: 7,
+        title: "Maternity Session",
+        category: "portraits",
+        image: "../assets/images/wedding2.webp",
+        thumbnail: "../assets/images/wedding2.webp",
+        description: "Beautiful maternity portraits celebrating the miracle of new life.",
+        date: "2024-09-15",
+        location: "Studio",
+        featured: false,
+        tags: ["maternity", "pregnancy", "family", "celebration"]
+    },
+    {
+        id: 8,
+        title: "Product Photography",
+        category: "commercial",
+        image: "../assets/images/Wedding3.avif",
+        thumbnail: "../assets/images/Wedding3.avif",
+        description: "High-quality product photography for e-commerce and marketing campaigns.",
+        date: "2024-09-01",
+        location: "Studio",
+        featured: false,
+        tags: ["product", "commercial", "ecommerce", "marketing"]
+    },
+    {
+        id: 9,
+        title: "Event Coverage",
+        category: "events",
+        image: "../assets/images/Wedding4.avif",
+        thumbnail: "../assets/images/Wedding4.avif",
+        description: "Complete event photography covering corporate events, parties, and celebrations.",
+        date: "2024-08-20",
+        location: "Event Venue",
+        featured: false,
+        tags: ["event", "corporate", "party", "celebration"]
+    },
+    {
+        id: 10,
+        title: "Fashion Editorial",
+        category: "fashion",
+        image: "../assets/images/Wedding5.jpg",
+        thumbnail: "../assets/images/Wedding5.jpg",
+        description: "Creative fashion editorial photography with artistic styling and dramatic lighting.",
+        date: "2024-08-10",
+        location: "Studio",
+        featured: false,
+        tags: ["fashion", "editorial", "artistic", "styling"]
+    },
+    {
+        id: 11,
+        title: "Graduation Ceremony",
+        category: "events",
+        image: "../assets/images/Wedding1.jpeg",
+        thumbnail: "../assets/images/Wedding1.jpeg",
+        description: "Capturing the milestone moments of graduation ceremonies and celebrations.",
+        date: "2024-07-25",
+        location: "University",
+        featured: false,
+        tags: ["graduation", "milestone", "achievement", "ceremony"]
+    },
+    {
+        id: 12,
+        title: "Food Photography",
+        category: "commercial",
+        image: "../assets/images/wedding2.webp",
+        thumbnail: "../assets/images/wedding2.webp",
+        description: "Appetizing food photography for restaurants, menus, and culinary brands.",
+        date: "2024-07-15",
+        location: "Restaurant",
+        featured: false,
+        tags: ["food", "culinary", "restaurant", "appetizing"]
     }
-}
+];
 
 // ===== PORTFOLIO GRID GENERATION =====
 class PortfolioGrid {
@@ -396,14 +418,16 @@ class InfiniteScroll {
 }
 
 // ===== INITIALIZE PORTFOLIO =====
-document.addEventListener('DOMContentLoaded', async function() {
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Portfolio JavaScript loaded successfully');
+
     const portfolioContainer = document.getElementById('portfolio-container');
+    console.log('Portfolio container found:', !!portfolioContainer);
 
     if (portfolioContainer) {
-        // Load portfolio data first
-        await loadPortfolioData();
+        console.log('Initializing portfolio with', portfolioData.length, 'items');
 
-        // Initialize portfolio grid
+        // Initialize portfolio grid with direct data
         const portfolio = new PortfolioGrid(portfolioContainer, portfolioData);
         portfolio.init();
 
