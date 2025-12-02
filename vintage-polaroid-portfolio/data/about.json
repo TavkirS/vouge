@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "name": "Alexandra Chen",
+    "title": "Vintage Moments Photographer",
+    "image": "assets/images/polaroids/profile.jpg",
+    "bio": "Photography isn't just my profession—it's my passion. For over a decade, I've been capturing life's most precious moments through the lens of a classic camera, believing that every photograph should tell a timeless story.",
+    "location": "Mumbai, India",
+    "experience": "12+ years",
+    "specialties": ["Wedding Photography", "Portrait Sessions", "Street Photography", "Travel Photography", "Film Photography"],
+    "philosophy": "Every photograph should tell a timeless story. I believe in capturing authentic moments that reveal the true essence of people and places.",
+    "contact": {
+      "email": "hello@vintagemoments.com",
+      "phone": "+91 8888234987",
+      "instagram": "@vintagemoments.photo",
+      "website": "www.vintagemoments.com"
+    }
+  },
+  "story": {
+    "title": "My Story",
+    "content": "My journey with photography began over twelve years ago with a simple film camera and an insatiable curiosity about the world around me. What started as a hobby quickly evolved into a lifelong dedication to the art of visual storytelling. I've always believed that the best photographs are those that capture genuine emotion and authentic moments rather than posed perfection. Throughout my career, I've had the privilege of documenting some of life's most beautiful moments - from intimate weddings to grand adventures, from quiet portraits to bustling city streets. Each session teaches me something new about light, composition, and most importantly, about the human experience. I specialize in creating authentic, emotional connections through my work, whether it's the joy of a wedding day, the serenity of a portrait session, or the raw energy of street photography. My approach combines classic techniques with modern sensibilities, always striving to create images that will be treasured for generations to come.",
+    "highlights": [
+      "Over 500+ weddings photographed",
+      "Published in National Geographic",
+      "Winner of International Photography Awards",
+      "Featured in Vogue India",
+      "Author of 'Timeless Frames' photography book"
+    ]
+  },
+  "timeline": [
+    {
+      "year": "2010",
+      "title": "The Beginning",
+      "description": "Began my photography journey with my first DSLR camera, exploring the streets of Mumbai and capturing candid moments of daily life.",
+      "icon": "📷",
+      "image": "assets/images/polaroids/timeline-1.jpg"
+    },
+    {
+      "year": "2012",
+      "title": "Formal Education",
+      "description": "Graduated with a degree in Fine Arts & Photography from the prestigious National Institute of Design, building a strong foundation in visual storytelling.",
+      "icon": "🎓",
+      "image": "assets/images/polaroids/timeline-2.jpg"
+    },
+    {
+      "year": "2014",
+      "title": "First Wedding",
+      "description": "Shot my first wedding - the beginning of my specialty in wedding photography. This emotional experience solidified my passion for capturing love stories.",
+      "icon": "💍",
+      "image": "assets/images/polaroids/timeline-3.jpg"
+    },
+    {
+      "year": "2016",
+      "title": "International Recognition",
+      "description": "Won first photography award at international competition. This recognition opened doors to working with high-profile clients and brands.",
+      "icon": "🏆",
+      "image": "assets/images/polaroids/timeline-4.jpg"
+    },
+    {
+      "year": "2018",
+      "title": "National Geographic Publication",
+      "description": "Published travel photography series in National Geographic, documenting the cultural heritage and natural beauty of India's diverse landscapes.",
+      "icon": "🌍",
+      "image": "assets/images/polaroids/timeline-5.jpg"
+    },
+    {
+      "year": "2020",
+      "title": "Published Author",
+      "description": "Published my first photography book 'Timeless Frames', a collection of essays and photographs exploring the art of capturing meaningful moments.",
+      "icon": "📖",
+      "image": "assets/images/polaroids/timeline-6.jpg"
+    },
+    {
+      "year": "2022",
+      "title": "Vogue India Feature",
+      "description": "Featured in Vogue India for my unique approach to fashion photography, blending vintage techniques with contemporary styling.",
+      "icon": "✨",
+      "image": "assets/images/polaroids/timeline-7.jpg"
+    },
+    {
+      "year": "2024",
+      "title": "Vintage Moments Studio",
+      "description": "Established Vintage Moments as a premier photography studio, specializing in timeless, authentic photography that captures the essence of every moment.",
+      "icon": "🏠",
+      "image": "assets/images/polaroids/timeline-8.jpg"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2024",
+      "title": "Gold Medal - Portrait Category",
+      "organization": "International Photography Awards",
+      "description": "Recognized for excellence in portrait photography",
+      "icon": "🏆",
+      "image": "assets/images/icons/award-1.png"
+    },
+    {
+      "year": "2023",
+      "title": "Best Wedding Photographer",
+      "organization": "Wedding Photography Excellence Awards",
+      "description": "Awarded for outstanding wedding photography work",
+      "icon": "💍",
+      "image": "assets/images/icons/award-2.png"
+    },
+    {
+      "year": "2022",
+      "title": "Featured Artist",
+      "organization": "Street Photography Festival",
+      "description": "Selected as featured artist for urban photography series",
+      "icon": "📸",
+      "image": "assets/images/icons/award-3.png"
+    },
+    {
+      "year": "2021",
+      "title": "Winner - Cultural Stories",
+      "organization": "Travel Photography Contest",
+      "description": "First place for cultural storytelling through travel photography",
+      "icon": "🌟",
+      "image": "assets/images/icons/award-4.png"
+    },
+    {
+      "year": "2020",
+      "title": "Emerging Photographer of the Year",
+      "organization": "Asian Photography Awards",
+      "description": "Recognized for innovative approach to contemporary photography",
+      "icon": "🎖️",
+      "image": "assets/images/icons/award-5.png"
+    },
+    {
+      "year": "2019",
+      "title": "Excellence in Film Photography",
+      "organization": "Analog Photography Society",
+      "description": "Awarded for mastery of film photography techniques",
+      "icon": "🎞️",
+      "image": "assets/images/icons/award-6.png"
+    }
+  ],
+  "exhibitions": [
+    {
+      "year": "2024",
+      "title": "Timeless Moments",
+      "venue": "National Gallery of Modern Art, Mumbai",
+      "description": "Solo exhibition featuring 50+ photographs exploring the concept of time in photography",
+      "duration": "January - March 2024"
+    },
+    {
+      "year": "2023",
+      "title": "Urban Poetry",
+      "venue": "Jehangir Art Gallery, Mumbai",
+      "description": "Group exhibition showcasing street photography from emerging Indian photographers",
+      "duration": "September - November 2023"
+    },
+    {
+      "year": "2022",
+      "title": "Love Stories",
+      "venue": "Taj Mahal Palace, Mumbai",
+      "description": "Wedding photography exhibition celebrating love and relationships",
+      "duration": "February - April 2022"
+    },
+    {
+      "year": "2021",
+      "title": "Through My Lens",
+      "venue": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, Mumbai",
+      "description": "Retrospective exhibition of 10 years of photographic work",
+      "duration": "December 2021 - February 2022"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2020",
+      "title": "Timeless Frames",
+      "type": "Book",
+      "publisher": "HarperCollins India",
+      "description": "A collection of essays and photographs exploring the art of meaningful photography",
+      "isbn": "978-93-5422-456-1"
+    },
+    {
+      "year": "2018",
+      "title": "Cultural Heritage of India",
+      "type": "Photo Essay",
+      "publisher": "National Geographic",
+      "description": "12-page spread documenting India's diverse cultural landscapes",
+      "url": "https://www.nationalgeographic.com/photography"
+    },
+    {
+      "year": "2017",
+      "title": "Mumbai Street Stories",
+      "type": "Photo Series",
+      "publisher": "The New York Times",
+      "description": "Documentary photography series about life in maximum city",
+      "url": "https://www.nytimes.com"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Technical Skills",
+      "items": [
+        "Film Photography",
+        "Digital Photography",
+        "Studio Lighting",
+        "Natural Light Photography",
+        "Photo Editing (Lightroom, Photoshop)",
+        "Color Grading",
+        "Large Format Printing"
+      ]
+    },
+    {
+      "category": "Specialties",
+      "items": [
+        "Wedding Photography",
+        "Portrait Sessions",
+        "Street Photography",
+        "Travel Photography",
+        "Fashion Photography",
+        "Event Photography",
+        "Product Photography"
+      ]
+    },
+    {
+      "category": "Creative Skills",
+      "items": [
+        "Visual Storytelling",
+        "Composition & Framing",
+        "Emotional Connection",
+        "Art Direction",
+        "Client Communication",
+        "Project Management",
+        "Brand Collaboration"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya & Rajesh Sharma",
+      "type": "Wedding Clients",
+      "content": "Alexandra captured our wedding day perfectly. Every photo tells a story and brings back the emotions of that beautiful day. We couldn't be happier with the results!",
+      "rating": 5,
+      "date": "2024-11-15"
+    },
+    {
+      "name": "Vogue India",
+      "type": "Media Partner",
+      "content": "Alexandra's unique blend of vintage techniques and contemporary vision makes her one of India's most promising photographers. Her work is consistently exceptional.",
+      "rating": 5,
+      "date": "2024-09-20"
+    },
+    {
+      "name": "Sarah Chen",
+      "type": "Portrait Client",
+      "content": "The most comfortable portrait session I've ever had. Alexandra has an incredible ability to make you feel at ease while capturing your true self.",
+      "rating": 5,
+      "date": "2024-08-10"
+    },
+    {
+      "name": "National Geographic",
+      "type": "Publication",
+      "content": "Outstanding work documenting India's cultural diversity. Her photographs tell stories that words alone cannot express.",
+      "rating": 5,
+      "date": "2024-06-05"
+    }
+  ],
+  "stats": {
+    "yearsExperience": 12,
+    "weddingsPhotographed": 500,
+    "portraitsTaken": 2500,
+    "countriesVisited": 25,
+    "awardsWon": 15,
+    "publications": 8,
+    "happyClients": 2000
+  }
+}
+

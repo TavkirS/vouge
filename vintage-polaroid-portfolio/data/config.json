@@ -1,0 +1,249 @@
+{
+  "site": {
+    "name": "Vintage Moments Photography",
+    "tagline": "Capturing Timeless Frames",
+    "description": "Professional vintage photography portfolio showcasing timeless moments through classic polaroid aesthetics",
+    "url": "https://vintagemoments.com",
+    "author": "Alexandra Chen",
+    "language": "en-US",
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "contact": {
+    "email": "hello@vintagemoments.com",
+    "phone": "+91 8888234987",
+    "whatsapp": "+918888234987",
+    "address": {
+      "street": "123 Photography Lane",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "zipcode": "400001"
+    },
+    "social": {
+      "instagram": "https://instagram.com/vintagemoments.photo",
+      "facebook": "https://facebook.com/vintagemoments",
+      "twitter": "https://twitter.com/vintagemoments",
+      "linkedin": "https://linkedin.com/company/vintagemoments",
+      "pinterest": "https://pinterest.com/vintagemoments"
+    }
+  },
+  "seo": {
+    "metaTitle": "Vintage Moments Photography | Timeless Wedding & Portrait Photography",
+    "metaDescription": "Professional vintage photography portfolio in Mumbai. Specializing in weddings, portraits, street photography, and travel. Capture your timeless moments with classic polaroid aesthetics.",
+    "keywords": [
+      "photography",
+      "wedding photography",
+      "portrait photography",
+      "street photography",
+      "travel photography",
+      "film photography",
+      "vintage photography",
+      "Mumbai photographer",
+      "Indian wedding photographer",
+      "portrait photographer"
+    ],
+    "ogImage": "assets/images/og-image.jpg",
+    "twitterCard": "summary_large_image",
+    "canonicalUrl": "https://vintagemoments.com"
+  },
+  "navigation": {
+    "main": [
+      {
+        "title": "Home",
+        "url": "index.html",
+        "active": true
+      },
+      {
+        "title": "Portfolio",
+        "url": "pages/portfolio.html",
+        "active": false
+      },
+      {
+        "title": "Stories",
+        "url": "pages/stories.html",
+        "active": false
+      },
+      {
+        "title": "About",
+        "url": "pages/about.html",
+        "active": false
+      },
+      {
+        "title": "Contact",
+        "url": "pages/contact.html",
+        "active": false
+      }
+    ],
+    "footer": [
+      {
+        "title": "Privacy Policy",
+        "url": "#"
+      },
+      {
+        "title": "Terms of Service",
+        "url": "#"
+      },
+      {
+        "title": "Cookie Policy",
+        "url": "#"
+      }
+    ]
+  },
+  "portfolio": {
+    "categories": [
+      {
+        "id": "all",
+        "name": "All Work",
+        "count": 15
+      },
+      {
+        "id": "weddings",
+        "name": "Weddings",
+        "count": 3
+      },
+      {
+        "id": "portraits",
+        "name": "Portraits",
+        "count": 3
+      },
+      {
+        "id": "street",
+        "name": "Street",
+        "count": 3
+      },
+      {
+        "id": "travel",
+        "name": "Travel",
+        "count": 3
+      },
+      {
+        "id": "films",
+        "name": "Films",
+        "count": 2
+      },
+      {
+        "id": "fashion",
+        "name": "Fashion",
+        "count": 2
+      }
+    ],
+    "itemsPerPage": 12,
+    "lightbox": {
+      "enabled": true,
+      "showNavigation": true,
+      "showCaptions": true,
+      "keyboardNavigation": true
+    }
+  },
+  "stories": {
+    "itemsPerPage": 6,
+    "categories": [
+      "Photography Tips",
+      "Wedding Stories",
+      "Street Photography",
+      "Film Photography",
+      "Portrait Photography",
+      "Travel Photography",
+      "Fashion Photography"
+    ],
+    "features": {
+      "typewriterEffect": true,
+      "sharing": true,
+      "pagination": true,
+      "search": true,
+      "filtering": true
+    }
+  },
+  "contact": {
+    "form": {
+      "fields": [
+        {
+          "name": "name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Your full name"
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "placeholder": "your.email@example.com"
+        },
+        {
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "Your phone number"
+        },
+        {
+          "name": "message",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Tell me about your vision for the shoot..."
+        }
+      ],
+      "validation": {
+        "name": {
+          "minLength": 2,
+          "maxLength": 50
+        },
+        "email": {
+          "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+        },
+        "phone": {
+          "pattern": "^\\d{3}-\\d{3}-\\d{4}$"
+        },
+        "message": {
+          "minLength": 10,
+          "maxLength": 500
+        }
+      }
+    },
+    "whatsapp": {
+      "enabled": true,
+      "number": "+918888234987",
+      "messageTemplate": "Hello, I'm interested in photography services. My details are: Name: {name}, Email: {email}, Phone: {phone}, Message: {message}"
+    }
+  },
+  "performance": {
+    "lazyLoading": true,
+    "imageOptimization": true,
+    "preloadCritical": true,
+    "caching": {
+      "enabled": true,
+      "strategy": "stale-while-revalidate",
+      "maxAge": 86400
+    }
+  },
+  "accessibility": {
+    "reducedMotion": true,
+    "highContrast": false,
+    "screenReader": true,
+    "keyboardNavigation": true,
+    "ariaLabels": true
+  },
+  "analytics": {
+    "googleAnalytics": {
+      "enabled": false,
+      "trackingId": "GA_MEASUREMENT_ID"
+    },
+    "facebookPixel": {
+      "enabled": false,
+      "pixelId": "FB_PIXEL_ID"
+    }
+  },
+  "features": {
+    "darkMode": false,
+    "newsletter": false,
+    "bookingSystem": false,
+    "paymentIntegration": false,
+    "multiLanguage": false
+  },
+  "development": {
+    "debug": false,
+    "hotReload": false,
+    "errorReporting": false
+  }
+}
+

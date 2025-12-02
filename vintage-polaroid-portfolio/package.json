@@ -1,0 +1,49 @@
+{
+  "name": "vintage-polaroid-portfolio",
+  "version": "1.0.0",
+  "description": "Professional vintage photography portfolio website with polaroid theme",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . --open",
+    "build": "echo 'Static site - no build process required'",
+    "preview": "npx serve . -p 8080",
+    "lint": "echo 'Linting HTML, CSS, and JS files...'",
+    "test": "echo 'Running accessibility and performance tests...'",
+    "optimize": "echo 'Optimizing images and assets...'",
+    "deploy": "echo 'Deploy to your hosting provider'"
+  },
+  "keywords": [
+    "photography",
+    "portfolio",
+    "vintage",
+    "polaroid",
+    "responsive",
+    "bootstrap",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": "Vintage Moments Photography",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vintage-polaroid-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vintage-polaroid-portfolio/issues"
+  },
+  "homepage": "https://vintagemoments.com",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not ie 11"
+  ]
+}
+

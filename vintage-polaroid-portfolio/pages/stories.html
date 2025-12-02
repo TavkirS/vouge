@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories - Vintage Moments Photography</title>
+    <meta name="description" content="Read captivating photography stories and behind-the-scenes moments from our vintage photography journey">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/images/icons/camera-icon.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top vintage-nav">
+        <div class="container">
+            <a class="navbar-brand vintage-brand" href="../index.html">
+                <span class="brand-text">VINTAGE MOMENTS</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="stories.html">Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Stories Header -->
+    <section class="stories-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="section-title animate-fade-in">Stories</h1>
+                    <p class="section-subtitle animate-fade-in-delay">Behind the lens, beyond the frame</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Grid -->
+    <section class="stories-section">
+        <div class="container">
+            <div class="row" id="stories-container">
+                <!-- Stories will be loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Modal -->
+    <div class="modal fade" id="storyModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content vintage-modal">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img id="story-image" src="" alt="" class="img-fluid rounded">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="story-content">
+                                <h2 id="story-title" class="typewriter-effect"></h2>
+                                <div class="story-meta">
+                                    <span id="story-date"></span>
+                                    <span id="story-category"></span>
+                                </div>
+                                <div id="story-text" class="story-text"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loading-spinner">
+        <div class="spinner-border text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="vintage-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-text">&copy; 2024 Vintage Moments Photography. All rights reserved.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/animations.js"></script>
+    <script src="../assets/js/stories.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
