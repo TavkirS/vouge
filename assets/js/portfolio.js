@@ -9,7 +9,7 @@ let portfolioData = [];
 
 async function loadPortfolioData() {
     try {
-        const response = await fetch('data/portfolio.json');
+        const response = await fetch('../data/portfolio.json');
         const data = await response.json();
         portfolioData = data.portfolio;
         return portfolioData;
@@ -21,7 +21,7 @@ async function loadPortfolioData() {
                 id: 1,
                 title: "Wedding Celebration",
                 category: "weddings",
-                image: "assets/images/Wedding1.jpeg",
+                image: "../assets/images/Wedding1.jpeg",
                 description: "Beautiful wedding ceremony captured with traditional elegance",
                 date: "2024",
                 location: "Mumbai, India"
@@ -30,7 +30,7 @@ async function loadPortfolioData() {
                 id: 2,
                 title: "Bridal Portrait",
                 category: "portraits",
-                image: "assets/images/wedding2.webp",
+                image: "../assets/images/wedding2.webp",
                 description: "Stunning bridal portrait in traditional attire",
                 date: "2024",
                 location: "Wedding Venue"
@@ -39,7 +39,7 @@ async function loadPortfolioData() {
                 id: 3,
                 title: "Ceremony Moments",
                 category: "weddings",
-                image: "assets/images/Wedding3.avif",
+                image: "../assets/images/Wedding3.avif",
                 description: "Intimate moments from the wedding ceremony",
                 date: "2024",
                 location: "Temple"
@@ -48,7 +48,7 @@ async function loadPortfolioData() {
                 id: 4,
                 title: "Reception Celebration",
                 category: "weddings",
-                image: "assets/images/Wedding4.avif",
+                image: "../assets/images/Wedding4.avif",
                 description: "Joyful reception moments",
                 date: "2024",
                 location: "Banquet Hall"
@@ -57,7 +57,7 @@ async function loadPortfolioData() {
                 id: 5,
                 title: "Wedding Memories",
                 category: "portraits",
-                image: "assets/images/Wedding5.jpg",
+                image: "../assets/images/Wedding5.jpg",
                 description: "Cherished wedding memories",
                 date: "2024",
                 location: "Garden Venue"
@@ -66,7 +66,7 @@ async function loadPortfolioData() {
                 id: 6,
                 title: "Corporate Headshot",
                 category: "corporate",
-                image: "assets/images/Wedding1.jpeg",
+                image: "../assets/images/Wedding1.jpeg",
                 description: "Professional corporate headshots",
                 date: "2024",
                 location: "Corporate Office"
@@ -75,7 +75,7 @@ async function loadPortfolioData() {
                 id: 7,
                 title: "Maternity Session",
                 category: "portraits",
-                image: "assets/images/wedding2.webp",
+                image: "../assets/images/wedding2.webp",
                 description: "Beautiful maternity portraits",
                 date: "2024",
                 location: "Studio"
@@ -84,7 +84,7 @@ async function loadPortfolioData() {
                 id: 8,
                 title: "Product Photography",
                 category: "commercial",
-                image: "assets/images/Wedding3.avif",
+                image: "../assets/images/Wedding3.avif",
                 description: "High-quality product photography",
                 date: "2024",
                 location: "Studio"
@@ -93,7 +93,7 @@ async function loadPortfolioData() {
                 id: 9,
                 title: "Event Coverage",
                 category: "events",
-                image: "assets/images/Wedding4.avif",
+                image: "../assets/images/Wedding4.avif",
                 description: "Complete event photography coverage",
                 date: "2024",
                 location: "Event Venue"
@@ -102,7 +102,7 @@ async function loadPortfolioData() {
                 id: 10,
                 title: "Fashion Editorial",
                 category: "fashion",
-                image: "assets/images/Wedding5.jpg",
+                image: "../assets/images/Wedding5.jpg",
                 description: "Creative fashion editorial photography",
                 date: "2024",
                 location: "Studio"
@@ -111,7 +111,7 @@ async function loadPortfolioData() {
                 id: 11,
                 title: "Graduation Ceremony",
                 category: "events",
-                image: "assets/images/Wedding1.jpeg",
+                image: "../assets/images/Wedding1.jpeg",
                 description: "Capturing graduation ceremony moments",
                 date: "2024",
                 location: "University"
@@ -120,7 +120,7 @@ async function loadPortfolioData() {
                 id: 12,
                 title: "Food Photography",
                 category: "commercial",
-                image: "assets/images/wedding2.webp",
+                image: "../assets/images/wedding2.webp",
                 description: "Appetizing food photography",
                 date: "2024",
                 location: "Restaurant"
